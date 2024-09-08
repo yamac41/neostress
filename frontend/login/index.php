@@ -2,8 +2,6 @@
     require '../../backend/configuration/database.php';
     require '../../backend/configuration/funcsinit.php';
 
-    
-
     if ($user -> UserLoggedIn()){
         header('Location: /dash/home');
         exit;
