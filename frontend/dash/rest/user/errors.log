@@ -1,0 +1,8 @@
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680365272893 u Saturday 1st of April, 2023, 06:08:22 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680363902367 u Saturday 1st of April, 2023, 06:08:24 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680365272894 u Saturday 1st of April, 2023, 06:08:32 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680359923343 u Saturday 1st of April, 2023, 06:08:33 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680363902368 u Saturday 1st of April, 2023, 06:08:34 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680365272895 u Saturday 1st of April, 2023, 06:08:42 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680365272896 u Saturday 1st of April, 2023, 06:08:52 PM
+ERROR: SQLSTATE[HY000] [1045] Access denied for user 'qizq'@'localhost' (using password: YES) - /dash/rest/user/check?_=1680365272897 u Saturday 1st of April, 2023, 06:09:02 PM

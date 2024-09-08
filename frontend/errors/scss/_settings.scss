@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: local('Graphik LCG Regular'), local('Graphik-LCG-Regular'),
+    url('../fonts/GraphikLCG-Regular.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Regular.woff') format('woff'),
+    url('../fonts/GraphikLCG-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src: local('Graphik LCG Medium'), local('Graphik-LCG-Medium'),
+    url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff'),
+    url('../fonts/GraphikLCG-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: 'Graphik LCG';
+  background: #060612;
+  font-weight: 400;
+  color: white;
+  border: 4px solid transparent;
+  border-image: linear-gradient(94.9deg, #8c5eff 0%, #11c9ff 99.17%);
+  -moz-border-image: -moz-linear-gradient(#8c5eff, #11c9ff);
+  -webkit-border-image: -webkit-linear-gradient(#8c5eff, #11c9ff);
+  border-image-slice: 1;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 1384px;
+  margin: 72px auto;
+  &.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.button {
+  background: linear-gradient(0deg, #8669ff, #8669ff),
+    linear-gradient(94.9deg, #8c5eff 0%, #4954ff 53.84%, #11c9ff 99.17%);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #060612;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 30px;
+  }
+}

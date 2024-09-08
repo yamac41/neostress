@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: local('Graphik LCG Medium'), local('Graphik-LCG-Medium'),
+        url('GraphikLCG-Medium.woff2') format('woff2'),
+        url('GraphikLCG-Medium.woff') format('woff'),
+        url('GraphikLCG-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
